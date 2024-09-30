@@ -15,7 +15,7 @@
     },
     {
       "src": "assets/icons/kitty.png",
-      "sizes": "96x96",
+      "sizes": "72x72",
       "type": "image/png",
       "purpose": "maskable any"
     }
