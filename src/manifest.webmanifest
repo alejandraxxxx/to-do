@@ -9,7 +9,7 @@
   "icons": [
     {
       "src": "assets/icons/kitty.png",
-      "sizes": "72x72",
+      "sizes": "256x256",
       "type": "image/png",
       "purpose": "maskable any"
     },
