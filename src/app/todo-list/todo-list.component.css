@@ -75,3 +75,20 @@ button {
   font-size: 14px;
   cursor: pointer;
 }
+
+#installButton {
+  background-color: pink;
+  border: 2px solid hotpink;
+  color: black;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;  /* Se muestra dinámicamente */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#installButton:hover {
+  background-color: hotpink;
+  color: white;
+}
