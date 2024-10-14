@@ -4,6 +4,9 @@
   max-width: 500px;
   margin: 0 auto;
   padding: 20px;
+  text-align: center;
+  background-color: #f5f2f0; /* Color de fondo */
+  border-radius: 10px;      /* Bordes redondeados */
 }
 
 input {
@@ -15,12 +18,6 @@ input {
 button {
   padding: 10px;
   margin-top: 10px;
-}
-
-.todo-container {
-  background-color: #f5f2f0;
-  border-radius: 10px;
-  padding: 20px;
 }
 
 .todo-container h1 {
@@ -77,18 +74,43 @@ button {
 }
 
 #installButton {
-  background-color: pink;
-  border: 2px solid hotpink;
-  color: black;
-  padding: 10px 20px;
-  font-size: 16px;
-  border-radius: 5px;
-  cursor: pointer;
-  display: none;  /* Se muestra dinámicamente */
-  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: pink;       /* Color de fondo rosado */
+  border: 2px solid hotpink;    /* Bordes de color rosa fuerte */
+  color: black;                 /* Letra negra */
+  padding: 10px 20px;           /* Espaciado interno (padding) */
+  font-size: 16px;              /* Tamaño de la fuente */
+  border-radius: 5px;           /* Bordes redondeados */
+  cursor: pointer;              /* Cambia el cursor cuando pasa sobre el botón */
+  display: none;
+  margin: 0 auto;       /* Se muestra dinámicamente */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave */
 }
 
 #installButton:hover {
-  background-color: hotpink;
-  color: white;
+  background-color: rgb(229, 171, 200);    /* Cambia el fondo al pasar el mouse */
+  color: white;                 /* Cambia el color de la letra al pasar el mouse */
+}
+
+/* Estilos del contenedor principal */
+.container {
+  max-width: 600px;          /* Aumenta el ancho máximo del contenedor */
+  margin: 0 auto;
+  text-align: center;          /* Centrar contenido */
+  margin-bottom: 20px;        /* Espacio en la parte inferior */
+}
+
+/* Estilos del banner */
+.banner {
+  background-color: #dca6ca;  /* Fondo rosa claro */
+  color: black;               /* Texto negro */
+  padding: 10px;              /* Espacio interno */
+  border-radius: 5px;        /* Bordes redondeados */
+  font-weight: bold;          /* Texto en negrita */
+  margin-bottom: 10px;        /* Espacio entre el banner y el botón */
+  font-size: 18px;            /* Tamaño de la fuente del banner */
+}
+
+/* Espacio entre el botón y el otro contenedor */
+.otro-contenedor {
+  margin-top: 20px;           /* Separación entre contenedores */
 }
